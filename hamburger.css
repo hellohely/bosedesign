@@ -1,0 +1,39 @@
+/* The Overlay (background) */
+.overlay {
+  height: 100%;
+  width: 0px;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  background-color: #212121; /* Black fallback color */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+#topnav {
+  position: absolute;
+  top: 60px;
+  left: 0px;
+  width: 100%;
+  margin: 0px;
+  text-align: center; /* Centered text/links */
+}
+
+/* The navigation links inside the overlay */
+#topnav a {
+  padding: 20px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  color: #BDBDBD;
+  display: block; /* Display block instead of inline */
+}
+
+.burger {
+  color: black;
+  z-index: 999;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}/*# sourceMappingURL=hamburger.css.map */
